@@ -7,7 +7,7 @@ A project to perform customer segmentation analysis using machine learning techn
 This project aims to perform customer segmentation analysis using machine learning techniques. By segmenting customers, businesses can tailor their marketing strategies to specific groups, improving customer satisfaction and increasing sales.
 
 ## Dataset
-The dataset used for this project includes customer transaction data. [Link to Dataset] (if applicable).
+The dataset used for this project includes customer transaction data. [Link to Dataset](https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python?select=Mall_Customers.csv).
 
 ## Project Structure
 - `data/`: Contains the raw and processed data files.
@@ -28,54 +28,59 @@ Clone this repository:
 git clone https://github.com/your_username/Customer-Segmentation-Analysis.git
 cd Customer-Segmentation-Analysis
 
-Install the required libraries:
+```
+### Install the required libraries:
 
-bash
-
-Copy
+```bash
 pip install -r requirements.txt
-Usage
+```
+### Usage
 Run the Jupyter notebooks in the notebooks/ directory to see the analysis and modeling steps.
 
-To run the interactive dashboard:
+### To run the interactive dashboard:
 
-bash
-
-Copy
+```bash
 streamlit run dashboard/app.py
-Project Steps
-Data Collection and Preprocessing
+```
+### Project Steps:
 
-Load and clean the data.
+1.Data Collection and Preprocessing
 
-Handle missing values and normalize numerical features.
+- Load and clean the data.
 
-Save the cleaned data for further analysis.
+- Handle missing values and normalize numerical features.
 
-Feature Engineering
+- Save the cleaned data for further analysis.
 
-Create new features to enhance the dataset.
+2.Feature Engineering
 
-Save the engineered features for modeling.
+- Create new features to enhance the dataset.
 
-Model Training and Evaluation
+- Save the engineered features for modeling.
 
-Train a K-Means clustering model.
+3.Model Training and Evaluation
 
-Save the clustered data for visualization and analysis.
+- Train a K-Means clustering model.
 
-Exploratory Data Analysis (EDA)
+- Save the clustered data for visualization and analysis.
 
-Perform EDA to understand data distribution and relationships.
+4.Exploratory Data Analysis (EDA)
 
-Use visualizations like pair plots, correlation matrices, and t-SNE plots.
+- Perform EDA to understand data distribution and relationships.
 
-Interactive Dashboard
+- Use visualizations like pair plots, correlation matrices, and t-SNE plots.
 
-Build an interactive dashboard using Streamlit to explore customer segments.
+5.Interactive Dashboard
 
-Contributing
+- Build an interactive dashboard using Streamlit to explore customer segments.
+
+### Contributing
 Feel free to submit issues or pull requests if you find any bugs or have suggestions for improvements.
 
-License
+### License
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+
+
+
+
